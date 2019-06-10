@@ -4,16 +4,15 @@
 </head>
 <body>
 <h1>Olá Mundo!</h1>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-141593738-1');
-  gtag('config', 'UA-141593738-2');  
-  gtag('config', 'UA-116043074-2');
-</script>
+  <!-- Google Analytics -->
+  <script>
+  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+  ga('create', 'UA-141593738-1', 'auto', 'conta1');
+  ga('create', 'UA-141593738-2', 'auto', 'conta2');
+  ga('create', 'UA-116043074-2', 'auto', 'conta3');
+  ga('send', 'pageview');
+  </script>
+  <script async src='https://www.google-analytics.com/analytics.js'></script>
+  <!-- End Google Analytics -->
 </body>
 </html>
